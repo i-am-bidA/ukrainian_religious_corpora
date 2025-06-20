@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Завантаження аркушів з повними словами
-pcu_words = pd.read_excel("26_05.xlsx", sheet_name="ПЦУ_Слова")
-upc_words = pd.read_excel("26_05.xlsx", sheet_name="УПЦ_Слова")
+pcu_words = pd.read_excel("Статистичний профіль Корпусу релігійних текстів.xlsx", sheet_name="ПЦУ_Слова")
+upc_words = pd.read_excel("Статистичний профіль Корпусу релігійних текстів.xlsx", sheet_name="УПЦ_Слова")
 
 # Додаємо стовпець джерела
 pcu_words["Джерело"] = "ПЦУ"
