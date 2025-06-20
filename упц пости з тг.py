@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient
 from datetime import datetime, timezone
 
-api_id = 29986445
-api_hash = '0a6151883a6ecbb50a2c65d2d3df9649'
+api_id = **
+api_hash = '***'
 
 client = TelegramClient('uniapi', api_id, api_hash)
 
